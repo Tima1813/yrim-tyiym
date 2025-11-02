@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Қазақтың ырым-тыйымдары — Дәстүр мен ғылым</title>
+  <meta name="description" content="Қазақ халқының ырым-тыйымдары: дәстүр мен заманауи ғылым байланысы. Интерактивті тест, бейне, галерея және толық мәтіндік оқулық." />
+  <style>
+    :root{
+      --bg:#fdf6ec; --card:#fffaf4; --accent:#c47a0a; --accent2:#12835c; --text:#2a1b0a; --border:#e8d3a6;
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Noto Sans',sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:linear-gradient(90deg,var(--accent),var(--accent2));padding:20px;color:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand .logo{font-weight:700;font-size:22px;padding:10px 16px;border-radius:10px;background:white;color:var(--accent2)}
+    nav a{color:white;text-decoration:none;margin-left:15px;font-weight:600}
+    nav a:hover{text-decoration:underline}
+    main{max-width:1100px;margin:20px auto;padding:10px}
+    section{background:var(--card);margin-bottom:20px;padding:20px;border:1px solid var(--border);border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+    h1,h2,h3{font-family:'Noto Serif',serif;color:var(--accent2)}
+    footer{background:var(--accent2);color:white;text-align:center;padding:15px;font-size:14px}
+    .quiz label{display:block;margin:5px 0}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+    .gallery img{width:100%;border-radius:10px;border:3px solid var(--border)}
+    audio, video{width:100%;margin-top:10px;border-radius:8px}
+    .ornament{width:100%;height:8px;background:url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Kazakh_ornament.svg');background-repeat:repeat-x;background-size:auto 8px;margin:10px 0}
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo">ЫТ</div><div><strong>Қазақтың ырым-тыйымдары</strong><br><small>Дәстүр мен заманауи ғылым байланысы</small></div></div>
+  <nav>
+    <a href="#intro">Кіріспе</a>
+    <a href="#main">Негізгі бөлім</a>
+    <a href="#practice">Практика</a>
+    <a href="#test">Тест</a>
+    <a href="#gallery">Галерея</a>
+  </nav>
+</header>
+<div class="ornament"></div>
+<main>
+<section id="intro">
+  <h2>Кіріспе</h2>
+  <p>Қазақ халқы ұрпақ тәрбиесінде ырым мен тыйымды ерекше құрал ретінде пайдаланған. Бұл дәстүрлі қағидалар арқылы адамгершілік, имандылық, инабаттылық қасиеттер бала бойына дарыған. Жоба мақсаты – осы ырым-тыйымдардың мәнін, заманауи ғылыммен байланысын көрсету.</p>
+</section>
+<section id="main">
+  <h2>Негізгі бөлім</h2>
+  <h3>Ырым және тыйым мәні</h3>
+  <p>Ырым – халықтың жақсы тілек, сенімге негізделген дәстүрі. Мысалы, «отқа май құю», «құмырсқаның илеуін бұзба». Тыйым – жаман қылықтардан тыю, сақтандыру. Мысалы, «жолда ойнама», «суға түкірме», «жалаңаяқ жүрме».</p>
+  <h3>Ғылыми түсіндірмелер</h3>
+  <ul>
+    <li><strong>Суға түкірме:</strong> санитарлық-гигиеналық талапқа сәйкес.</li>
+    <li><strong>Жалаңаяқ жүрме:</strong> суық тию, инфекция қаупі.</li>
+    <li><strong>Құмырсқаның илеуін бұзба:</strong> экожүйені сақтау.</li>
+    <li><strong>Отпен ойнама:</strong> өрт қауіпсіздігі.</li>
+  </ul>
+</section>
+<section id="practice">
+  <h2>Практикалық бөлім</h2>
+  <ol>
+    <li>Ырым-тыйым бойынша бейнежоба түсіріп, түсіндірме беру.</li>
+    <li>Сыныпта талқылау сабағын өткізу және пікірталас ұйымдастыру.</li>
+    <li>Google Form арқылы сауалнама жасау.</li>
+  </ol>
+  <video controls poster="https://upload.wikimedia.org/wikipedia/commons/4/4b/Kazakh_yurt_camp.jpg">
+    <source src="https://cdn.pixabay.com/download/video/2019/07/30/25977-358225889_tiny.mp4?attachment" type="video/mp4" />
+  </video>
+  <audio controls>
+    <source src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Dombra_tune.ogg" type="audio/ogg">
+  </audio>
+</section>
+<section id="test">
+  <h2>Интерактивті тест (10 сұрақ)</h2>
+  <div class="quiz" id="quiz-area">
+    <p>1. «Суға түкірме» тыйымы нені сақтайды?</p>
+    <label><input type="radio" name="q1" value="a"> Суды таза ұстау</label>
+    <label><input type="radio" name="q1" value="b"> Байлық әкелу</label>
+
+    <p>2. «Жалаңаяқ жүрме» қандай ғылыммен байланысты?</p>
+    <label><input type="radio" name="q2" value="a"> Медицина</label>
+    <label><input type="radio" name="q2" value="b"> Астрономия</label>
+
+    <p>3. «Отпен ойнама» — қандай қауіпке қатысты?</p>
+    <label><input type="radio" name="q3" value="a"> Өрт қауіпі</label>
+    <label><input type="radio" name="q3" value="b"> Су тасқыны</label>
+
+    <p>4. «Жолда ойнама» — бұл қай бағыттағы ереже?</p>
+    <label><input type="radio" name="q4" value="a"> Қауіпсіздік</label>
+    <label><input type="radio" name="q4" value="b"> Тұрмыстық дәстүр</label>
+
+    <p>5. «Құмырсқаның илеуін бұзба» — не үшін тыйым?</p>
+    <label><input type="radio" name="q5" value="a"> Табиғатты қорғау</label>
+    <label><input type="radio" name="q5" value="b"> Қарғыстан қорқу</label>
+
+    <button id="submit-test">Тексеру</button>
+    <div id="test-result"></div>
+  </div>
+</section>
+<section id="gallery">
+  <h2>Фото-галерея</h2>
+  <div class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Kazakh_patterns.jpg" alt="Қазақ ою-өрнегі"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Kazakh_dombra.jpg" alt="Домбыра"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Kazakh_family_traditions.jpg" alt="Қазақ дәстүрі"/>
+  </div>
+</section>
+</main>
+<div class="ornament"></div>
+<footer>
+  © 2025 — «Зерде» жобасы | Дизайн: қазақы өрнек пен дәстүр стилінде.
+</footer>
+<script>
+const correct={q1:'a',q2:'a',q3:'a',q4:'a',q5:'a'};
+const btn=document.getElementById('submit-test');
+btn.onclick=()=>{
+  let score=0;for(let i in correct){let ans=document.querySelector(`input[name=${i}]:checked`);if(ans&&ans.value===correct[i])score++;}
+  document.getElementById('test-result').textContent=`Дұрыс жауаптар саны: ${score}/5`;
+}
+</script>
+</body>
+</html>
